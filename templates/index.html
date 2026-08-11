@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DecodeBot | Rule-Based AI Assistant</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+    <div class="chat-container">
+
+        <!-- ================= HEADER ================= -->
+
+        <header class="chat-header">
+
+            <div class="bot-info">
+
+                <div class="bot-avatar">
+                    🤖
+                </div>
+
+                <div>
+
+                    <h1>DecodeBot</h1>
+
+                    <p>
+                        <span class="status-dot"></span>
+                        Online • Rule-Based AI Assistant
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <button
+                id="clearChatButton"
+                class="clear-button"
+                title="Clear conversation"
+            >
+                🗑️
+            </button>
+
+        </header>
+
+
+        <!-- ================= CHAT AREA ================= -->
+
+        <main
+            class="chat-messages"
+            id="chatMessages"
+        >
+
+            <!-- Welcome Message -->
+
+            <div class="message bot-message">
+
+                <div class="message-avatar">
+                    🤖
+                </div>
+
+
+                <div class="message-content">
+
+                    <div class="message-name">
+                        DecodeBot
+                    </div>
+
+
+                    <div class="message-bubble">Hello! 👋 I'm <strong>DecodeBot</strong>.<br>
+I'm a rule-based AI assistant. Ask me something!</div>
+
+                    <div class="message-time">
+                        Just now
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+
+        <!-- ================= TYPING INDICATOR ================= -->
+
+        <div
+            id="typingIndicator"
+            class="typing-indicator hidden"
+        >
+
+            <div class="typing-avatar">
+                🤖
+            </div>
+
+            <div class="typing-bubble">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+            <span class="typing-text">
+                DecodeBot is typing...
+            </span>
+
+        </div>
+
+
+        <!-- ================= INPUT AREA ================= -->
+
+        <footer class="chat-input-area">
+
+            <form id="chatForm">
+
+                <input
+                    type="text"
+                    id="messageInput"
+                    placeholder="Type your message..."
+                    autocomplete="off"
+                    maxlength="500"
+                >
+
+
+                <button
+                    type="submit"
+                    id="sendButton"
+                    title="Send message"
+                >
+                    ➤
+                </button>
+
+            </form>
+
+
+            <p class="footer-text">
+
+                DecodeBot uses predefined rule-based responses.
+
+            </p>
+
+        </footer>
+
+    </div>
+
+
+    <script
+        src="{{ url_for('static', filename='script.js') }}"
+    ></script>
+
+</body>
+
+</html>
