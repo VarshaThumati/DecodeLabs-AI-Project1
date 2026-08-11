@@ -95,5 +95,9 @@ Example:
 ```text
 What is AI?
 ---
-<img width="1907" height="877" alt="image" src="https://github.com/user-attachments/assets/6f60df74-a9c5-4601-ab25-a072db331e72" />
+
+### 📸 Screenshots
+
+<img width="1907" height="877" alt="Screenshot 2026-08-12 003044" src="https://github.com/user-attachments/assets/a83a5e98-0a88-4b3e-ab35-2fd70be38a44" />
+
 
