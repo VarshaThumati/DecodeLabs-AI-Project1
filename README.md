@@ -1,146 +1,96 @@
-# 🤖 DecodeBot — Rule-Based AI Chatbot
+# 🤖 DecodeBot – Rule-Based AI Chatbot
 
-A beginner-friendly rule-based AI chatbot developed as **Project 1 of the DecodeLabs Artificial Intelligence Internship**.
+A simple and interactive **rule-based AI chatbot** developed as part of my **Artificial Intelligence Internship at DecodeLabs**.
+
+DecodeBot uses predefined rules and keyword matching to understand user inputs and provide appropriate responses. The project started as a command-line chatbot and was enhanced into a **web-based chatbot application using Flask, HTML, CSS, and JavaScript** with a modern and responsive user interface.
+
+---
 
 ## 📌 Project Overview
 
-DecodeBot is a simple conversational chatbot that uses predefined rules and conditional logic to respond to user inputs.
+DecodeBot is designed to demonstrate the fundamentals of **rule-based conversational AI**.
 
-The project demonstrates the fundamentals of **rule-based Artificial Intelligence**, where responses are determined using explicitly programmed `if`, `elif`, and `else` conditions rather than machine learning.
+Instead of using machine learning or large language models, the chatbot processes the user's input and matches it against predefined patterns and rules.
 
-This project serves as a foundation for understanding control flow, decision-making, and basic AI concepts.
+The web version provides a user-friendly chat interface where users can:
 
-## 🎯 Objective
+- Send messages in real time
+- Receive rule-based responses
+- Ask basic conversational questions
+- Ask introductory questions about Artificial Intelligence
+- Get chatbot information
+- Use help commands
+- Clear the conversation
+- Interact through a responsive web interface
 
-The objective of this project is to create a chatbot that:
-
-* Handles greetings and exit commands
-* Responds to predefined user inputs
-* Uses `if-elif-else` decision-making logic
-* Runs continuously until the user chooses to exit
-* Demonstrates basic rule-based AI concepts
+---
 
 ## ✨ Features
 
-* 👋 Multiple greeting responses
-* 🌅 Morning, afternoon, and evening greetings
-* 💬 Basic conversational responses
-* 🤖 Information about the chatbot
-* 🧠 Basic explanation of Artificial Intelligence
-* 🛠️ Chatbot capability information
-* 👨‍💻 Information about the project's purpose
-* ❓ Interactive help command
-* 🚪 Multiple exit commands
-* 🔤 Case-insensitive user input
-* ✨ Basic punctuation handling
-* 🛡️ Fallback response for unknown inputs
-* 🔄 Continuous conversation loop
+### 💬 Conversational Features
 
-## 🧠 How It Works
+DecodeBot can respond to:
 
-DecodeBot follows a simple rule-based decision-making process:
+- Greetings such as `hello`, `hi`, and `hey`
+- Time-based greetings
+- `How are you?`
+- `What is your name?`
+- `Who are you?`
+- `What is AI?`
+- `What is Artificial Intelligence?`
+- `Who created you?`
+- `Who made you?`
 
-```text
-User Input
-     ↓
-Input Normalization
-     ↓
-Check Predefined Rules
-     ↓
-┌─────────────────────────────┐
-│ Greeting?                   │
-│ Basic question?             │
-│ AI-related question?        │
-│ Help command?               │
-│ Exit command?               │
-└─────────────────────────────┘
-     ↓
-Generate Predefined Response
-     ↓
-Continue Conversation
-     ↓
-Exit when requested
-```
+### 🤖 Chatbot Features
 
-The chatbot does not learn from conversations. Instead, it compares the user's input against predefined rules and produces the corresponding response.
+- Rule-based response system
+- Keyword/pattern matching
+- Case-insensitive user input
+- Basic punctuation handling
+- Help command
+- Goodbye and exit commands
+- Unknown-input fallback response
+
+### 🌐 Web Application
+
+The chatbot was enhanced with a web interface featuring:
+
+- Modern chatbot UI
+- Bot and user message bubbles
+- Chat timestamps
+- Typing indicator
+- Clear chat functionality
+- Responsive design
+- Mobile-friendly layout
+- Automatic browser launch
+- Interactive message input
+- Enter-to-send functionality
+
+---
 
 ## 🛠️ Technologies Used
 
-* **Python 3**
-* Python Standard Library
-* Conditional Statements
-* `while` Loop
-* String Processing
-* Console Input/Output
+| Technology | Purpose |
+|------------|---------|
+| Python | Core chatbot logic |
+| Flask | Web application backend |
+| HTML5 | Webpage structure |
+| CSS3 | Styling and responsive UI |
+| JavaScript | Chat interaction and API communication |
+| Git | Version control |
+| GitHub | Source code hosting |
 
-No external Python packages are required.
+---
 
-## 📂 Project Structure
+## 🧠 How It Works
 
-```text
-DecodeLabs_AI_Project1/
-│
-├── chatbot.py
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-└── screenshots/
-```
+The chatbot follows a simple rule-based approach.
 
-### File Description
+### Step 1 – User Input
 
-| File / Folder      | Description                         |
-| ------------------ | ----------------------------------- |
-| `chatbot.py`       | Main chatbot application            |
-| `README.md`        | Project documentation               |
-| `requirements.txt` | Project dependency information      |
-| `.gitignore`       | Files excluded from version control |
-| `screenshots/`     | Demonstration screenshots           |
+The user enters a message through the web interface.
 
-
-## 💬 Example Conversation
+Example:
 
 ```text
-🤖 DecodeBot: Hello! I am DecodeBot.
-🤖 DecodeBot: I am a simple rule-based AI chatbot.
-🤖 DecodeBot: Type 'help' to see what I can do.
-🤖 DecodeBot: Type 'bye' or 'exit' to end the conversation.
-
-You: hello
-🤖 DecodeBot: Hello! How can I help you?
-
-You: What is your name?
-🤖 DecodeBot: I'm DecodeBot, your rule-based AI assistant. 🤖
-
-You: What is AI?
-🤖 DecodeBot: Artificial Intelligence is the field of creating
-             systems that can perform tasks that normally require
-             human-like intelligence.
-
-You: help
-🤖 DecodeBot: Here are some things you can ask me:
-
-You: bye
-🤖 DecodeBot: Goodbye! 👋 Have a great day!
-```
-
-
-## 🎓 Internship Context
-
-This project was developed as **Project 1 — Rule-Based AI Chatbot** as part of the **DecodeLabs Artificial Intelligence Internship**.
-
-The project focuses on foundational concepts including:
-
-* Control flow
-* Decision-making logic
-* Predefined responses
-* Continuous program execution
-* Basic Artificial Intelligence concepts
-
-## 👩‍💻 Author
-
-**Lakshmi Varsha Thumati**
-
-Artificial Intelligence Intern
-DecodeLabs Internship - 2026
+What is AI?
