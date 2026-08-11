@@ -101,3 +101,7 @@ What is AI?
 <img width="1907" height="877" alt="Screenshot 2026-08-12 003044" src="https://github.com/user-attachments/assets/a83a5e98-0a88-4b3e-ab35-2fd70be38a44" />
 
 
+<img width="1902" height="878" alt="image" src="https://github.com/user-attachments/assets/c4a3b9f4-a303-4406-8258-ccd6ed3012cd" />
+
+
+
