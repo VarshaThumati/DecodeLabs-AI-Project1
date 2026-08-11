@@ -94,7 +94,7 @@ Example:
 
 ```text
 What is AI?
----
+```
 
 ### 📸 Screenshots
 
