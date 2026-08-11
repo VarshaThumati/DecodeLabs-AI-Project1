@@ -95,4 +95,5 @@ Example:
 ```text
 What is AI?
 ---
-![Uploading image.png…]()
+<img width="1907" height="877" alt="image" src="https://github.com/user-attachments/assets/6f60df74-a9c5-4601-ab25-a072db331e72" />
+
