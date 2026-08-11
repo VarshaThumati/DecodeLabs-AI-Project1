@@ -94,3 +94,5 @@ Example:
 
 ```text
 What is AI?
+---
+![Uploading image.png…]()
